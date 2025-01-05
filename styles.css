@@ -1,0 +1,177 @@
+/* 
+    blue: #3b5998
+    black: #000000
+    purple-red: #e1306c
+    gray: #2b3137
+    red: #ff0000
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+#main-div {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.apply-circular-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+#facebook-div {
+    background-image: url("/images/facebook-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#facebook-div:hover {
+    background-image: url("/images/facebook-white-logo.png");
+    background-repeat: no-repeat;
+    background-color: #3b5998;
+    cursor: pointer;
+}
+
+.apply-circular-border #facebook-tooltip {
+    visibility: hidden;
+}
+
+.apply-circular-border:hover #facebook-tooltip {
+    visibility: visible;
+    background-color: #3b5998;
+    border-radius: 4px;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 10px;
+    position: absolute;
+    top: 300px;
+}
+
+#x-div {
+    background-image: url("/images/x-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#x-div:hover {
+    background-image: url("/images/x-white-logo.png");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.apply-circular-border #x-tooltip {
+    visibility: hidden;
+}
+
+.apply-circular-border:hover #x-tooltip {
+    visibility: visible;
+    background-color: #000000;
+    border-radius: 4px;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 10px;
+    position: absolute;
+    top: 300px;
+}
+
+#instagram-div {
+    background-image: url("/images/instagram-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#instagram-div:hover {
+    background-image: url("/images/instagram-white-logo.png");
+    background-repeat: no-repeat;
+    background-color: #e1306c;
+    cursor: pointer;
+}
+
+.apply-circular-border #instagram-tooltip {
+    visibility: hidden;
+}
+
+.apply-circular-border:hover #instagram-tooltip {
+    visibility: visible;
+    background-color: #e1306c;
+    border-radius: 4px;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 10px;
+    position: absolute;
+    top: 300px;
+}
+
+#github-div {
+    background-image: url("/images/github-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#github-div:hover {
+    background-image: url("/images/github-white-logo.png");
+    background-repeat: no-repeat;
+    background-color: #24292e;
+    cursor: pointer;
+}
+
+.apply-circular-border #github-tooltip {
+    visibility: hidden;
+}
+
+.apply-circular-border:hover #github-tooltip {
+    visibility: visible;
+    background-color: #24292e;
+    border-radius: 4px;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 10px;
+    position: absolute;
+    top: 300px;
+}
+
+#youtube-div {
+    background-image: url("/images/youtube-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#youtube-div:hover {
+    background-image: url("/images/youtube-white-logo.png");
+    background-repeat: no-repeat;
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+.apply-circular-border #youtube-tooltip {
+    visibility: hidden;
+}
+
+.apply-circular-border:hover #youtube-tooltip {
+    visibility: visible;
+    background-color: #ff0000;
+    border-radius: 4px;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 10px;
+    position: absolute;
+    top: 300px;
+}
